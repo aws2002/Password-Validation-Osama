@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+body {
+    margin: 0;
+    background: url(../images/5566879.jpg);
+    background-size:cover;
+    position: relative;
+    z-index: 1;
+    /* background-position:center; */
+}
+.clear {
+    clear: both;
+}
+.item-pass{
+    margin-top: 35%;
+}
+.item-pass h1{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+.item-pass h1>span{
+    color: #fdbf40;
+    font-size: 60px;
+}
+form{
+    position: relative;
+}
+.item-form input:focus{
+    border: 3px solid #fdbf40;}
+.item-form input{
+    height: 60px;
+    padding: 0 20px;
+    border: 3px solid #fdbf40;
+    border-radius: 50px;
+    font-size: 25px;
+    outline: 0;
+}
+.item-form i{
+    position: absolute;
+    font-size: 30px;
+    color: rgba(22, 22, 22, 0.479);
+    top: 16px;
+    right: 16px;
+    cursor: pointer;
+}
+.item-massage{
+    position: relative;
+    padding: 10px 0;
+    opacity: 0;
+    border-radius: 5px;
+    box-shadow:  5px -5px 10px #000000b4,
+                -5px 5px 10px #f8ff27;
+    transition: all 0.5s ease;
+}
+.item-massage p{
+    position: relative;
+    bottom: 8px;
+    padding: 0 60px;
+    font-size: 20px;
+    font-weight: 500;
+    color: red;
+}
+.item-massage i{
+    position: relative;
+    top: 1.5rem;
+    padding: 0 30px;
+    font-size: 20px;
+    color: red;
+}
+.valid{
+    color:rgb(0, 128, 0) !important;
+}
+.invalid{
+    color:rgb(255, 0, 0) !important;
+}
+.fa-check{
+    color: rgb(0, 128, 0) !important;
+}
+.effect-wrap .effect{
+    position: absolute;
+    z-index: -1;
+}
+.effect-wrap .effect-1{
+    top: 20%;
+    left: 20%;
+    color: #fdbf40;
+    font-size: 50px;
+    animation: spin_1 5s linear infinite;
+}
+.effect-wrap .effect-2{
+    right: 5%;
+    top: 10%;
+    color: rgb(192, 178, 178);
+    font-size: 25px;
+    animation: spin_1 7s linear infinite;
+}
+.effect-wrap .effect-3{
+    left: 15%;
+    bottom: -2%;
+    color: #434459;
+    font-size: 30px;
+    animation: bounceTop_1 3s linear infinite;
+}
+.effect-wrap .effect-4{
+    right: 25%;
+    bottom: 15%;
+    color: rgb(192, 178, 178);
+    font-size: 30px;
+    animation: bounceTop_1 4s linear infinite;
+}
+.effect-wrap .effect-5{
+    top: 35%;
+    right: 15%;
+    color: #fdbf40;
+    font-size: 50px;
+    animation: bounceTop_1 7s linear infinite;
+}
+@keyframes spin_1{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes bounceTop_1{
+    0%,100%{
+        transform: translateY(-30px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+}
