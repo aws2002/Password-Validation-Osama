@@ -9,8 +9,10 @@ body {
     background: url(../images/5566879.jpg);
     background-size:cover;
     position: relative;
+    background-repeat: no-repeat;
+    min-height: 100vh;
     z-index: 1;
-    /* background-position:center; */
+    background-position:center;
 }
 .clear {
     clear: both;
