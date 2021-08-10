@@ -1,6 +1,4 @@
-
 var state =false;
-
 function showtoggle(){
     if(state){
         document.getElementById("myPass").setAttribute("type","password");

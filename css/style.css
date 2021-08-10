@@ -10,7 +10,7 @@ body {
     background-size:cover;
     position: relative;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 90vh;
     z-index: 1;
     background-position:center;
 }
@@ -103,7 +103,7 @@ form{
 }
 .effect-wrap .effect-3{
     left: 15%;
-    bottom: -2%;
+    bottom: 5%;
     color: #434459;
     font-size: 30px;
     animation: bounceTop_1 3s linear infinite;
